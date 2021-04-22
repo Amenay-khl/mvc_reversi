@@ -1,0 +1,28 @@
+h1 {
+    background: lightgreen;
+}
+table.reversi {
+    border-collapse: collapse;
+    border: solid black 1px;
+}
+
+table.reversi	td {
+    border: solid black 1px;
+    width: 32px;
+    height: 32px;
+}
+
+table.reversi	td.canPlayHere {
+    background-color: yellow;
+}
+
+td.Player1 > div, td.Player2 > div {
+    width: 30px;
+    height: 30px;
+    border: solid black 1px;
+    border-radius: 50%;
+}
+
+td.Player1 > div {
+    background: black;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="ts/index.ts" defer ></script>
+    <script>
+        var debugReversi;
+        setTimeout( () => {
+            debugReversi = Window['debugReversi'];
+            console.log("Utilisez debugReversi pour contrôler le modèle, par exemple:\ndebugReversi.play(2, 3)")
+        }, 500 );
+    </script>
+</head>
+<body>
+    <h1>Reversi MVP</h1>
+
+    R1:
+    <div class="R1"></div>
+
+    R2:
+    <div class="R2"></div>
+</body>
+</html>
